@@ -20,6 +20,7 @@ import {
   Moon,
   CheckCircle2
 } from "lucide-react";
+import Image from "next/image";
 import { CLINIC_INFO } from "@/data/clinicInfo";
 import { SERVICES_CATEGORIES } from "@/data/servicesData";
 
@@ -136,13 +137,8 @@ export default function Header() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 flex items-center justify-between">
           {/* Brand Logo */}
           <Link href="/" className="group flex items-center gap-3">
-            <div className="w-11 h-11 rounded-lg bg-gradient-to-br from-oklahoma-blue-600 via-oklahoma-blue-700 to-oklahoma-blue-900 border border-oklahoma-gold-400 flex items-center justify-center text-oklahoma-gold-400 shadow-md group-hover:scale-105 transition-transform duration-300">
-              {/* Elegant Tooth & Heritage Crest mark */}
-              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M12 2C8 2 6 4.5 6 8c0 3 1.5 5 2.5 8 .8 2.5 1.5 6 3.5 6s2.7-3.5 3.5-6c1-3 2.5-5 2.5-8 0-3.5-2-6-6-6z" />
-                <path d="M12 5v4" stroke="currentColor" strokeWidth="1.5" />
-                <path d="M10 7h4" stroke="currentColor" strokeWidth="1.5" />
-              </svg>
+            <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-oklahoma-blue-800 to-oklahoma-blue-900 border border-oklahoma-gold-400/60 flex items-center justify-center shadow-md group-hover:scale-105 transition-transform duration-300 overflow-hidden">
+              <Image src="/logo.svg" alt="Comfort Dental Logo" width={44} height={44} priority />
             </div>
             <div className="flex flex-col">
               <span className="font-serif text-xl sm:text-2xl font-bold tracking-tight text-oklahoma-blue-900 dark:text-oklahoma-ivory-100 group-hover:text-oklahoma-blue-700 dark:group-hover:text-oklahoma-gold-400 transition-colors leading-tight">

@@ -1,12 +1,10 @@
-import React from "react";
-import Link from "next/link";
-import { Calendar, ShieldCheck, Clock, Award, Phone, CheckCircle2, HeartHandshake } from "lucide-react";
-import BookingWizard from "@/components/BookingWizard";
+import { Calendar, ShieldCheck, Clock, Award, Phone, HeartHandshake } from "lucide-react";
+import BookingForm from "@/components/BookingForm";
 import { CLINIC_INFO } from "@/data/clinicInfo";
 
 export const metadata = {
   title: "Book Dental Appointment Online | Comfort Dental Clinic OKC",
-  description: "Schedule your dental visit with Oklahoma City's premier dental specialists. Choose doctor, service, and convenient time slot with instant confirmation."
+  description: "Schedule your dental visit with Oklahoma City's premier dental specialists. Choose doctor, service, and convenient time slot with instant confirmation.",
 };
 
 export default function BookAppointmentPage() {
@@ -28,7 +26,7 @@ export default function BookAppointmentPage() {
           </h1>
 
           <p className="text-base sm:text-lg text-oklahoma-charcoal-600 dark:text-oklahoma-charcoal-300 leading-relaxed">
-            Experience gentle, unhurried healthcare in our private comfort suites. Select your desired treatment, doctor, and time below for immediate calendar confirmation.
+            Experience gentle, unhurried healthcare in our private comfort suites. Fill in your details below and we'll confirm your appointment shortly.
           </p>
         </div>
       </section>
@@ -62,9 +60,9 @@ export default function BookAppointmentPage() {
         </div>
       </section>
 
-      {/* Main Booking Wizard */}
-      <section className="max-w-7xl mx-auto px-4 sm:px-6">
-        <BookingWizard />
+      {/* Custom Booking Form */}
+      <section className="max-w-6xl mx-auto px-4 sm:px-6">
+        <BookingForm />
       </section>
 
       {/* Phone assistance callout */}

@@ -14,7 +14,7 @@ export const DOCTORS = [
     ],
     bio: "A native of central Oklahoma, Dr. Garrett Vance founded Comfort Dental Clinic with a singular mission: to provide world-class, anxiety-free dental care inspired by Oklahoma warmth, integrity, and clinical precision. Having completed over 1,500 hours of postgraduate clinical education, Dr. Vance is recognized statewide for his master artistry in smile rejuvenation and complex full-mouth rehabilitation.",
     quote: "Dentistry should never feel clinical or intimidating. When you step into our practice, you are family—and your smile is our masterpiece.",
-    image: "https://images.unsplash.com/photo-1622253692010-333f2da6031d?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?auto=format&fit=crop&w=800&q=80",
     phone: "(405) 400-2670"
   },
   {
@@ -32,7 +32,7 @@ export const DOCTORS = [
     ],
     bio: "Dr. Sarah Lin brings world-renowned orthodontic expertise to Oklahoma City. Specializing in discreet adult alignment and adolescent dentofacial orthopedics, Dr. Lin merges cutting-edge digital 3D mechanics with holistic facial aesthetics to deliver balanced, confident smiles without unnecessary tooth extractions.",
     quote: "A truly beautiful smile harmonizes with every line of your face. We craft smiles that radiate effortless confidence at any age.",
-    image: "https://images.unsplash.com/photo-1594824813583-e18dd7b9c9f2?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=800&q=80",
     phone: "(405) 400-2670"
   },
   {
@@ -50,7 +50,7 @@ export const DOCTORS = [
     ],
     bio: "Dr. Marcus Sterling leads our implant and surgical division, specializing in zero-anxiety procedures through IV twilight sedation and 3D guided computer navigation. His empathetic bedside manner and gentle surgical techniques make even the most apprehensive patients feel completely at ease.",
     quote: "With modern sedation and 3D precision, there is zero reason to ever experience fear or pain in the dental chair.",
-    image: "https://images.unsplash.com/photo-1537368910025-700350fe46c7?auto=format&fit=crop&w=800&q=80",
+    image: "https://images.unsplash.com/photo-1582750433449-648ed127bb54?auto=format&fit=crop&w=800&q=80",
     phone: "(405) 400-2670"
   },
   {

@@ -10,7 +10,7 @@ export const TESTIMONIALS = [
     verified: true,
     headline: "Restored my confidence after 15 years of hiding my smile",
     quote: "I spent over a decade smiling with closed lips in family photos. Dr. Vance and the team at Comfort Dental treated me like royalty. The clinic feels more like a private luxury retreat than a dental office—warm lavender towels, soothing music, and absolute gentleness. My porcelain veneers look so natural that my closest friends thought I had just returned from a vacation!",
-    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80"
+    image: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
   },
   {
     id: 2,

@@ -2,6 +2,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
 import InteractiveMapSection from "@/components/InteractiveMapSection";
+import GoldCurtain from "@/components/GoldCurtain";
 import { CLINIC_INFO } from "@/data/clinicInfo";
 import { Phone, Calendar } from "lucide-react";
 import Link from "next/link";
@@ -46,6 +47,10 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en" className="scroll-smooth">
       <body className="min-h-screen flex flex-col antialiased selection:bg-oklahoma-gold-500/30 selection:text-oklahoma-blue-900">
+        {/* Gold curtain intro animation */}
+        <GoldCurtain />
+        {/* Welcome audio */}
+        <audio src="/welcome.wav" autoPlay />
         {/* Global Navigation Header */}
         <Header />
 
